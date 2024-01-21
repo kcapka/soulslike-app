@@ -1,0 +1,120 @@
+.shop-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shop-container h2{
+    margin-bottom: 30px;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    background-color: rgb(79, 79, 79);
+    border: 2px solid darkgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5) inset;
+    width: 100px;
+}
+
+/* purchased items */
+
+.purchased-item img{
+    height: 40px;
+}
+
+.purchased-title p{
+    color: white;
+}
+
+.purchased-title {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purchased-title.active .purchased-arrow .arrow-line:nth-child(2){
+    transform: rotate(45deg) translateY(-3px);
+}
+
+.purchased-title.active .purchased-arrow .arrow-line:nth-child(1){
+    transform: rotate(-45deg) translateY(3px);
+}
+    
+
+.purchased-items{
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    left: -100%;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px darkgray;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5) inset;
+    height: 300px;
+    overflow: scroll;
+    transition: 0.3s;
+}
+
+.purchased-items.active{
+    left: 20px;
+}
+
+.purchased-item {
+    font-size: 14px;
+    background-color: rgb(79, 79, 79);
+    border: 2px solid darkgray;
+    padding: 2px;
+    margin: 5px 0;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5) inset;
+}
+
+.purchased-arrow{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px inset rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.purchased-arrow .arrow-line:nth-child(1){
+    transform: rotate(45deg) translateY(-3px);
+}
+
+.purchased-arrow .arrow-line:nth-child(2){
+    transform: rotate(-45deg) translateY(3px);
+}
+
+.arrow-line{
+    width: 15px;
+    background-color: black;
+    height: 4px;
+    transition: 0.3s;
+}

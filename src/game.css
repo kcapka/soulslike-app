@@ -1,0 +1,47 @@
+.enemies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(79, 79, 79);
+    border: 2px solid darkgray;
+    margin: 75px auto 0;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.5) inset;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    width: 400px;
+    margin: 100px auto 0;
+    padding: 20px;
+}
+
+span{
+    color:rgb(122, 0, 0);
+}
+
+.enemies p{
+    margin-top: 10px;
+    color: black;
+    font-size: 23px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.enemies img{
+    height: 200px;
+    cursor: url("./imgs/sword-cursor.png"), pointer;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+}
+
+.reset-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.reset-container.active{
+    display: none;
+}
