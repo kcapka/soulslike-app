@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/soulslike-app/static/css/main.e0e08496.css",
+    "main.js": "/soulslike-app/static/js/main.eec96fb7.js",
+    "static/js/787.f6444391.chunk.js": "/soulslike-app/static/js/787.f6444391.chunk.js",
+    "static/media/Mantinia Regular.otf": "/soulslike-app/static/media/Mantinia Regular.17509f704db56aefbca6.otf",
+    "static/media/skeleton-enemy.webp": "/soulslike-app/static/media/skeleton-enemy.b96d7f39a51a15b38968.webp",
+    "static/media/tools-icon.png": "/soulslike-app/static/media/tools-icon.cad4ed5fcbace866da0d.png",
+    "index.html": "/soulslike-app/index.html",
+    "main.e0e08496.css.map": "/soulslike-app/static/css/main.e0e08496.css.map",
+    "main.eec96fb7.js.map": "/soulslike-app/static/js/main.eec96fb7.js.map",
+    "787.f6444391.chunk.js.map": "/soulslike-app/static/js/787.f6444391.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0e08496.css",
+    "static/js/main.eec96fb7.js"
+  ]
+}
